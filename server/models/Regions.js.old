@@ -1,0 +1,14 @@
+module.exports = (sequelize, DataTypes) => {
+  const Regions = sequelize.define("Regions", {
+    longRegions: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    shortRegions: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+  });
+
+  return Regions;
+};

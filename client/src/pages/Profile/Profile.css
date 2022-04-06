@@ -1,0 +1,26 @@
+.page-profile .main-body .card,
+.page-profile .main-body ul li {
+  background: #282828;
+  color: #f1f1f1;
+}
+
+.page-profile .main-body .list-group-item {
+  color: #f1f1f1;
+}
+.icon-update-profile {
+  color: #17a2b8;
+  cursor: pointer;
+}
+.span-update-profile {
+  cursor: pointer;
+}
+
+.cross-update-profile {
+  cursor: pointer;
+  color: #b81717;
+}
+
+/* .card {
+  background-color: var(--bg-body-dark);
+  border: 1px solid var(--main-font-color);
+} */

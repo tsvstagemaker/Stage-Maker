@@ -1,0 +1,32 @@
+.page404 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.page404p {
+  margin: 16px;
+}
+
+.page404 span p {
+  font-size: 11rem;
+  color: #212529;
+}
+
+#tsv {
+  /* fill: #17a2b8; */
+  -webkit-animation: 4s linear 0s infinite alternate animTsv;
+  animation: 4s linear 0s infinite alternate animTsv;
+}
+
+@keyframes animTsv {
+  from {
+    fill: #17a2b8;
+  }
+  to {
+    fill: #212529;
+  }
+}

@@ -1,0 +1,133 @@
+.list-to-grid {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.list-to-grid svg {
+  width: 32px;
+  height: auto;
+  cursor: pointer;
+  margin: 3px;
+}
+
+.list-to-grid svg:hover {
+  background-color: #1f9db2;
+  border-radius: 3px;
+  padding: 3px;
+  color: #ffffff;
+}
+
+.row-match {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+.col-match {
+  width: 100%;
+  transition: 0.5s;
+}
+
+.card-img-match {
+  display: none;
+  transition: 0.5s;
+}
+
+.data-match-match {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card-title-match {
+  padding: 1rem 1rem;
+}
+
+/* .card-match { */
+/* position: relative;
+  width: 280px;
+  height: 400px;
+  margin: 30px;
+  box-shadow: 20px 20px 50px rgb(0 0 0 / 50%);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px); */
+/* } */
+
+.data-match {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-img-match {
+  position: absolute;
+  left: 50%;
+  top: 150px;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-size: 3vw;
+  text-align: center;
+}
+
+/* .all-Matchs {
+  margin-bottom: 20px;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.card shadow-sm {
+  margin-bottom: 20px;
+}
+
+.page-link-pagination {
+  background-color: #333333 !important;
+}
+
+.data-match-home {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.data-match {
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+} */

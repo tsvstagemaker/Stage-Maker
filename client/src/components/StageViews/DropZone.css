@@ -1,0 +1,111 @@
+.DropZone {
+  /* width: 100%;
+  height: 100%;
+  background-color: red;
+  border: 1px solid var(--main-font-color);
+  border-radius: 3px; */
+  padding: 3px;
+}
+.pub {
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  font-size: 11px;
+}
+.page {
+  width: 21cm;
+  min-height: 29.7cm;
+  padding: 2cm;
+  margin: 1cm auto;
+  border: 1px #d3d3d3 solid;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.subpage {
+  /* padding: 1cm; */
+  border: 1px #17a2b8 solid;
+  border-radius: 3px;
+  height: 237mm;
+  position: relative;
+}
+
+@page {
+  size: A4;
+  margin: 0;
+}
+@media print {
+  .page {
+    margin: 0;
+    border: initial;
+    border-radius: initial;
+    width: initial;
+    min-height: initial;
+    box-shadow: initial;
+    background: initial;
+    page-break-after: always;
+  }
+}
+
+.grid-show {
+  background: repeating-linear-gradient(
+      0deg,
+      rgba(120, 120, 120, 0.2),
+      rgba(120, 120, 120, 0.22) 2px,
+      rgba(0, 0, 0, 0) 2px,
+      rgba(0, 0, 0, 0) 240px
+    ),
+    repeating-linear-gradient(
+      -90deg,
+      rgba(120, 120, 120, 0.22),
+      rgba(120, 120, 120, 0.22) 2px,
+      rgba(0, 0, 0, 0) 2px,
+      rgba(0, 0, 0, 0) 240px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      rgba(120, 120, 120, 0.22),
+      rgba(120, 120, 120, 0.22) 2px,
+      rgba(0, 0, 0, 0) 2px,
+      rgba(0, 0, 0, 0) 60px
+    ),
+    repeating-linear-gradient(
+      -90deg,
+      rgba(120, 120, 120, 0.22),
+      rgba(120, 120, 120, 0.22) 2px,
+      rgba(0, 0, 0, 0) 2px,
+      rgba(0, 0, 0, 0) 60px
+    );
+
+  pointer-events: auto !important;
+}
+
+#bgDropzone {
+  display: none;
+}
+
+/* input[type="color"] {
+  appearance: auto;
+  width: 50px;
+  height: 27px;
+  cursor: default;
+  box-sizing: border-box;
+  background-color: -internal-light-dark(
+    rgb(239, 239, 239),
+    rgb(59, 59, 59)
+  );
+  color: -internal-light-dark(black, white);
+  border-width: 1px;
+  border-style: solid;
+  border-color: -internal-light-dark(
+    rgb(118, 118, 118),
+    rgb(133, 133, 133)
+  );
+  border-image: initial;
+  padding: 1px 2px;
+} */
+
+/* .DropZone h1 {
+  color: var(--white-color);
+} */

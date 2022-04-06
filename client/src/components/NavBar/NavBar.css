@@ -1,0 +1,103 @@
+.navbar {
+  z-index: 999999;
+  position: relative;
+}
+
+/* .container-fluid-navbar{
+  display: flex;
+flex-wrap: inherit;
+align-items: center;
+justify-content: space-between;
+} */
+
+.bg-dark-navbar {
+  background-color: #212529a1;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+.nav-item:hover {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.nav-item:hover a {
+  color: #333333 !important;
+}
+
+@media only screen and (max-width: 402px) {
+  .text-logo {
+    display: none;
+  }
+}
+
+.input-search {
+  color: #ffffff !important;
+}
+
+.dropdown-menu.show {
+  display: block;
+  background-color: #212529 !important;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: #212529 !important;
+  background-color: #ffffff !important;
+  border-radius: 5px;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #212529;
+}
+
+/* .dropdown-menu.show {
+  display: block;
+  background-color: #212529c4;
+} */
+
+.navbar {
+  font-size: 13px;
+}
+
+.form-search {
+  display: flex !important;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+@media screen and (max-width: 992px) {
+  .nav-form-search {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .nav-form-search {
+    margin-left: 10px;
+  }
+}
+
+.btn-search {
+  margin-top: -5px;
+}
+
+.text-logo::after {
+  content: 'Stage maker ready';
+  color: #17a2b8;
+  top: 14px;
+  right: 43%;
+  position: relative;
+  font-size: 10px;
+}
+
+@media only screen and (max-width: 1272px) and (min-width: 992px) {
+  .nav-bar-title {
+    display: none;
+  }
+}

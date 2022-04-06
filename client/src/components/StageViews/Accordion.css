@@ -1,0 +1,66 @@
+.accordion-item {
+  background-color: #333;
+  border: 1px solid rgba(51, 51, 51);
+}
+
+.accordion-button {
+  color: #fff;
+  background-color: #1c1f23;
+  text-align: center;
+
+  /* color: #f1f1f1;
+  text-align: left;
+  background-color: #6c757d; */
+}
+
+.accordion-button:not(.collapsed) {
+  color: #17a2b8;
+  background-color: #464646;
+  box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
+.img-accordion {
+  width: 30px;
+  height: auto;
+  margin-right: 5px;
+  color: #f1f1f1;
+}
+
+.icon-accordion {
+  width: 25px;
+  height: auto;
+  margin-right: 5px;
+}
+
+/* .accordion-button::after {  
+  content: "";
+  background-image: url(../../assets/chevron-down.svg);  
+} */
+
+.stageImage {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.stageImage img {
+  width: 50px;
+  height: auto;
+}
+
+.shape-list {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.shape-list svg {
+  margin: 3px;
+  cursor: pointer;
+}
